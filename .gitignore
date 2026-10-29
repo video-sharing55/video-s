@@ -1,0 +1,43 @@
+# Dependencies & package caches
+node_modules/
+.npm/
+
+# Compiled production build artifacts (generated via `npm run build`)
+build/
+dist/
+coverage/
+server.js
+*.tsbuildinfo
+
+# Environment secrets & private keys (NEVER commit to GitHub)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+
+# Persistent runtime database & user-uploaded thumbnails
+data/
+uploads/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+*.db
+
+# Logs, archives & OS/IDE metadata
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+

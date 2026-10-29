@@ -1,0 +1,6 @@
+{
+  "name": "Nocturne Cinema Vault",
+  "description": "Premium dark-themed video gallery with full admin panel, Adsterra ad placement management, multi-quality download flows, and Telegram channel integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
